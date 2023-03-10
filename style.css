@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,Verdana, Tahoma,;
+}
+
+body{
+    background-color: #6648d2;
+    font-family: cursive;
+}
+
+.row{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.icon{
+    border-radius: 50%;
+}
+
+.first{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./food_images/bgi4.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    position: relative;
+}
+.nav{
+    background-color: rgb(239, 229, 254);
+    height: 4rem;
+}
+
+.logo{
+    margin-left: 1rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0;
+}
+.logo:hover{
+    transform: scale(0.8);
+    animation:logo 3s linear alternate ;
+}
+@keyframes logo{
+    20%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(150deg);
+    }
+    60%{
+        transform: rotate(90deg);
+    }
+    80%{
+        transform: rotate(150deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.item{
+    padding-top: 15px;
+    padding-left: 20rem;
+    /* text-align: center; */
+    
+}
+
+.item li{
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    /* color: blue; */
+    /* text-decoration: none; */
+    display: inline-block;
+    line-height: 1px;
+    padding: 15px;
+    float: left;
+    transform: translate(5px, 5px);
+}
+
+.link:hover{
+    transform: scale(1.1);
+}
+
+.link a{
+    float: left;
+    font-family:;
+    text-decoration: none;
+    color: rgb(74, 6, 159);
+    font-size: 20PX;
+}
+
+.link a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.social_media{
+    margin-left:70%;
+}
+.social_media li{
+    float: left;
+    list-style: none;
+    /* padding:5px 15px; */
+    padding: 5px 15px;
+
+
+}
+
+.sm_link a{
+        font-size: 25px;
+}
+
+.insta,
+.fb,
+.tt,
+.ln,
+.yt{
+    color: rgb(74, 6, 159);
+}
+
+.insta:hover{
+    color:#fa9433;
+    animation: insta 0.5s linear alternate ;
+}
+@keyframes insta{
+    20%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+    60%{
+        transform: rotate(30deg);
+    }
+    80%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.fb:hover{
+    color: #3b5998;
+    animation: facebook 0.5s linear alternate ;
+}
+@keyframes facebook{
+    20%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+    60%{
+        transform: rotate(30deg);
+    }
+    80%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.tt:hover{
+    color:#00acee;
+    animation: twitter 0.5s linear alternate ;
+}
+@keyframes twitter{
+    20%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+    60%{
+        transform: rotate(30deg);
+    }
+    80%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.ln:hover{
+    color:#0A66C2;
+    animation: linkdin 0.5s linear alternate ;
+}
+@keyframes linkdin{
+    20%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+    60%{
+        transform: rotate(30deg);
+    }
+    80%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.yt:hover{
+    color:#ff0000;
+    animation: youtube 0.5s linear alternate ;
+}
+@keyframes youtube{
+    20%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+    60%{
+        transform: rotate(30deg);
+    }
+    80%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+
+/* .social_media{
+    margin-top: -1.5rem;
+    margin-right: 3rem;
+    padding-top: 0;
+    float: right;
+} */
+
+/* .social_media a{
+
+     text-decoration: none;
+    list-style: none;
+    padding: 8px;
+    font-size: 20px;
+} */
+
+.main_heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    width:fit-content;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+}
+.heading{
+    font-family:cursive,sans-serif;
+    color: aqua;
+    padding: 0;
+    margin-top:20%;
+    margin-left: 30px;
+    position: absolute;
+    position: relative;
+    /* transform: translate(10%,340%); */
+}
+.heading:hover{
+    /* transform: translate(10%,400%);
+    transform: scale(1.1); */
+    color: rgb(207, 240, 107);
+}
+.subheading{
+    font-style: italic;
+    font-weight: normal;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(93, 207, 118);
+    /* margin-top: 3%; */
+    margin-left: 30px;
+    position: absolute;
+    /* transform: translate(13%,1050%); */
+    width: fit-content;
+}
+.subheading:hover{
+    color:rgb(128, 86, 180) ;
+}
+
+.action{
+    height: 45%;
+    width: 25%;
+    background-color: #9270d1;
+    text-align: center;
+    float: right;
+    margin-top: -20vh;
+    margin-left: 65vw;
+    /* transform: translate(800px,100px); */
+    border-radius: 15px;
+    position: absolute;
+}
+.action:hover{
+    background-color: #cf9090;
+}
+.action2{
+    border-radius: 15px;
+    margin-top: 0px;
+    height: 64%;
+    width: 100%;
+    background-color: #522b9c;
+    padding: 30px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+.action2:hover{
+    background-color: #d3ed44;
+    opacity: 0.5;
+}
+
+.action h2{
+    color: #000000;
+    font-family:cursive;
+}
+
+
+.btn1{
+    display: block;
+align-items: center;
+height: 20%;
+width: 50%;
+margin:5% 25% 15% 25%;
+border-radius: 30px;
+background-color: #b3a2d2;
+}
+.btn1:hover{
+    color: #ffffff;
+    font-size: 1.0rem;
+    background-color:#43139c;
+    border: 2px solid #ff0000;
+}
+
+
+.btn2{
+    height: 20%;
+    width: 50%;
+    padding: auto;
+    margin: 0 25%  auto 25% ;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+.btn2:hover{
+    font-size:14px;
+    background-color: #43139c;
+    color: white;
+}
+
+
+/* .second{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.about{
+    width: 100vw;
+    height: 20vh;
+    background-color: #826bd6;
+}
+
+.second-heading{
+    color: #000000;
+}
+
+.describe{
+    text-align:center;
+    align-items: center;
+    color: #000;
+} */
+
+.third{
+    width: 100%;
+}
+.third-heading{
+    background-color: #fbfbfe;
+}
+.offer1{
+     background-color: #efe0e0;
+     width: 25%;
+     height:70vh;
+     float: left;
+}
+.offer1 ul{
+    border-left: 2px soldi black;
+    margin-left: 25px;
+    font-family: cursive,sans-serif;
+    text-align: left;
+    list-style: none;
+}
+
+.offer1 ul li:hover{
+    list-style:armenian;
+}
+HN.04/301 NEAR SHYAD BABA CHOCK,SECTOR 52,WAZERABAD,
+GURGRAM, STATE-HARYANA, PINCODE-122002
+
+.offer2{
+    background-color: rgb(218, 218, 203);
+    width: 25%;
+     height:70vh;
+     float: left;
+}
+
+.offer3{
+    background-color: #9fd3e7;
+    width: 50%;
+     height:70vh;
+     float:right;    
+     position: relative; 
+}
+
+.offer3 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-size: cover; */
+}
